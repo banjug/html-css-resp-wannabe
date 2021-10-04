@@ -72,6 +72,7 @@ img {
   clear: both;
 }
 
+/* /////////////////// */
 /* sezione media query */
 
 @media all and (max-width: 420px) {
