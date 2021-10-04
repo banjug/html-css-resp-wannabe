@@ -71,3 +71,31 @@ img {
 .clear {
   clear: both;
 }
+
+/* sezione media query */
+
+@media all and (max-width: 420px) {
+ 
+
+  /* common */
+  h1 {
+    font-size: 3rem;
+  
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+
+  /* sezione lezioni */
+    #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 80%;
+    margin: 0 auto 50px;
+    float: none;
+    font-size: 2rem;
+  }
+
+
+  
+}
