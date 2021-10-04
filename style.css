@@ -96,16 +96,17 @@ img {
     }
 
     /* sezione steps  */
+    #steps {
+      /* width: 100vw; */
+      padding: 50px 0;
+      margin-bottom: 50px;
+    }
+    
     #steps .row>.left, #steps .row>.central, #steps .row>.right {
     float: none;
     width: 80%;
     margin: 0 auto 50px;
     font-size: 2rem;
-    }
-
-    #steps {
-      /* width: 100vw; */
-      padding: 50px 0;
     }
 
     #steps::after {
@@ -115,6 +116,9 @@ img {
     }
 
     /* sezione perche */
+    #why {
+      padding: 50px 0;
+    }
 
     #why .row>.first, #why .row>.second, #why .row>.third {
       width: 80%;
