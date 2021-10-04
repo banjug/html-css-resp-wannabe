@@ -88,14 +88,30 @@ img {
   }
 
   /* sezione lezioni */
-    #lezioni .row>.left,
-  #lezioni .row>.right {
+    #lezioni .row>.left, #lezioni .row>.right {
     width: 80%;
     margin: 0 auto 50px;
     float: none;
     font-size: 2rem;
-  }
+    }
 
+    /* sezione steps  */
+    #steps .row>.left, #steps .row>.central, #steps .row>.right {
+    float: none;
+    width: 80%;
+    margin: 0 auto 50px;
+    font-size: 2rem;
+    }
 
-  
+    #steps {
+      /* width: 100vw; */
+      padding: 50px 0;
+    }
+
+    #steps::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
 }
